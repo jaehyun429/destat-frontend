@@ -1,6 +1,6 @@
 import { ReceiptRussianRuble, SendIcon, User2Icon } from "lucide-react";
 import { supabase } from "~/postgres/supaclient";
-import { Form, useParams } from "react-router";
+import { Form} from "react-router";
 import { Button } from "~/components/ui/button";
 import {
   Card,
